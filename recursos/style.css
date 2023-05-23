@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+h1{
+    color:#b02727;
+    font-size: 30px;
+}
+p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  color:#ffffff;
+  justify-content: center;
+}
+body{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    height:8%;
+    width: 100%;
+    background-color: #b02727;
+    color: white;
+    text-align: center;
+}
+.fcontent{
+    color: white;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+  margin-left: 10px;
+  display: block;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 10%; */
+}
+.nav_items a{
+  padding: 30px 30px;
+  color:#b02727;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.nav_items a:hover{
+  background: #b02727;
+  height: 72px;
+  color:#fff;
+}
+.nav_toggle{
+  display: none;
+}
+
+.content{
+  height:540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(imagenes/4nover.jpg) no-repeat center;
+    background-size:cover;
+}
+.titlevalorant{
+  margin-bottom: 40px;
+  font-size: 150px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  color:#b02727;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color:#b02727;
+}
+
+  .agentes{
+    display:flex;
+    background:#1f1d1d;
+    width:100%;
+    height: 300px;
+    flex-wrap: wrap;
+  }
+  .agentes div{
+    width: 0;
+    flex-grow: 1; /*abarcar todo espacio*/
+    object-fit: cover; /*para que cada imagen se posicione bien en cada div*/
+    transition: 500ms ease; /*medio segundo*/
+    opacity: 0.8;
+  }
+
+  .agentes div:hover{
+    width: 100px;
+    opacity: 1; /*antes lo puse a 0.8 para dar un efecto de seleccion cuando hovereas*/
+    filter: contrast(140%); /*mas calidad cuando pasas por encima de un personaje*/
+  }
+
+  .jett{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/jett.png);
+    background-position: center;
+    background-size: cover;
+                    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .omen{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/omen.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+  }
+
+  .breach{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/breach.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .cypher{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/cypher.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .phoenix{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/phoenix.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .sova{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/sova.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .viper{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/viper.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .sage{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/sage.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .raze{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/raze.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .skye{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/skye.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .brimstone{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/brimstone.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .killjoy{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/Killjoy.png);
+    background-position: center;
+    background-size: cover;
+    /*boton*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  
+  
+ button{
+    margin-top: 200px;
+    width: 80px;
+    height: 32px;
+    background-color: #b02727;
+    color: #fff;
+    border-radius: 10px;
+ }
+
+.estandar{
+    padding:30px;
+    background:#1f1d1d;
+    
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 176px;
+    width: 272px;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 48px 80px rgba(0, 0, 0, .5);
+    margin: 10px;
+}
+
+
+.box-container .box h1 {
+    font-size: 20px;
+    color: #b02727;
+    margin-top: 20px;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 90%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 30%;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left:30%;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 50px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+  
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: tytles;
+    border-radius: 5px;
+    background-color: #b02727;
+    padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  background-color: #b02727;
+
+}
+.column, input[type=submit] {
+  width: 50%;
+  margin-top: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text], [type=mail], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cfcccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #08be7b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #3aa740;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_items{
+      position: absolute;
+      top: 63px;
+      right: -50px;
+      background: rgba(176, 39, 39, .5);
+      display: none;
+      flex-direction: column;
+      width:50%;
+      height: 350px;
+      /* transform: translateX(-100%); */
+    }
+    .nav_items a{
+ 
+      color:white;
+ 
+  }
+    .nav_toggle{
+      display:flex !important;
+      flex-direction: column;
+      margin:15px;
+    }
+    .nav_toggle span{
+      width: 30px;
+      height: 4px;
+      background:#b02727;
+      margin-bottom: 5px;
+      border-radius: 2px;
+    }
+    .close span{
+      transform: rotate(45deg) translate(0px,0px);
+    }
+    .close span :nth-child(2){
+      display: none;
+    }
+    .close span :nth-child(3){
+      transform: rotate(-45deg) translate(-5px,1px);
+    }
+    .open{
+      display: flex;
+      /* transform: translateX(0) !important; */
+    }
+   
+    
+    h1{
+        font-size: 22px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .titlevalorant{
+        font-size: 80px;
+    }
+    .box{
+        overflow-y: auto;
+    }
+
+    .text {
+        font-size:20px;
+    }
+
+    .next {
+        right: 20%;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev{
+          left:20%;
+        border-radius: 3px 0 0 3px;
+      
+      }
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+    .column, input[type=submit] {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .container {
+      padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width:540px){
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .titlevalorant{
+      font-size: 40px;
+  }    
+    .box{
+        overflow-y: auto;
+    }
+    .text {
+        font-size:12px;
+    }
+    .next {
+        right: 10%;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev{
+          left:10%;
+        border-radius: 3px 0 0 3px;
+      
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .nav_items{
+    right: -10px;
+  }
+
+}
